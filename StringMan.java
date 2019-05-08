@@ -1,5 +1,3 @@
-package str;
-
 public class StringMan
 {
     /*
