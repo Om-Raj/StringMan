@@ -1,5 +1,3 @@
-package str;
-
 class StringManipulatorTester
 {    
     public static void main()
