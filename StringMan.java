@@ -133,7 +133,7 @@ public class StringMan
         }
         return arr;
     }
-    public String toUpperCase()
+    public String toUpper()
     {
         /*
          * Parameter : ()
