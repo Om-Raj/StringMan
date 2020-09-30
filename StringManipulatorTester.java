@@ -25,5 +25,6 @@ class StringManipulatorTester
         int digitArr[] = sa.extractDigit();
         for(int i : digitArr)
             System.out.println(i);
+        System.out.println(sa.toUpper());
     }
 }
