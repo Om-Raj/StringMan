@@ -145,7 +145,7 @@ public class StringMan
         for(int i=0; i<length; i++)
         {
             char ch = str.charAt(i);
-            if(ch>96&&ch<122)
+            if(ch>96&&ch<123)
                 STR += (char)(ch-32);
             else
                 STR += ch;
