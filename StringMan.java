@@ -133,4 +133,23 @@ public class StringMan
         }
         return arr;
     }
+    public String toUpperCase()
+    {
+        /*
+         * Parameter : ()
+         * Returns   : String
+         * Purpose   : Returns the string with all the lower case alphabets changed to upper case
+         */
+        String str = string;
+        String STR = "";
+        for(int i=0; i<length; i++)
+        {
+            char ch = str.charAt(i);
+            if(ch>96&&ch<122)
+                STR += (char)(ch-32);
+            else
+                STR += ch;
+        }
+        return STR;
+    }
 }
