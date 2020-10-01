@@ -121,7 +121,7 @@ public class StringMan
     public String[] split(char ch)
     {
         /*
-         * Parameter : ()
+         * Parameter : (char)
          * Returns   : String[]
          * Purpose   : Returns the String array containing the parts of the original String split at every occurence of the character argument.
          */
